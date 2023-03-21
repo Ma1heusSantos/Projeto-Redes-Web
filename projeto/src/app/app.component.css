@@ -9,13 +9,13 @@
     display: flex;
     justify-content: space-between;
     background-image: url(https://imgs.search.brave.com/8fvwcHyh5eIX3SmmNmNqNgEKjmraKNW6MBlCx-3mRPU/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaWRnZXNnLm5l/dC9pbWFnZXMvYXJ0/aWNsZS8yMDE3LzA5/L25ldHdvcmtpbmct/MTAwNzM1MDU5LWxh/cmdlLmpwZw);
-    height: 600px;
+    height: 300px;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
     object-fit: cover;
-    border-radius: 15px;
+    
 }
 .opc-menu{
     margin-top: 20px;
