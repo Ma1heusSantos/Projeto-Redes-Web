@@ -5,12 +5,9 @@
     font-family: sans-serif;
     color: #fff;
 }
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    background-image: url(https://imgs.search.brave.com/8fvwcHyh5eIX3SmmNmNqNgEKjmraKNW6MBlCx-3mRPU/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaWRnZXNnLm5l/dC9pbWFnZXMvYXJ0/aWNsZS8yMDE3LzA5/L25ldHdvcmtpbmct/MTAwNzM1MDU5LWxh/cmdlLmpwZw);
-    height: 300px;
-    width: 100vw;
+.banner img{
+    height: 200px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
@@ -18,22 +15,13 @@
     
 }
 .opc-menu{
-    margin-top: 20px;
-    margin-right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
+    height: 60px;
     list-style: none;
     gap: 10px;
     text-decoration: none;
+    background-color: #0061FF;
    
-}
-.titulo-menu{
-    margin-top: 20px;
-    margin-left: 20px;
-    list-style: none;
-    display: flex;
-    justify-content: start;
-
 }
