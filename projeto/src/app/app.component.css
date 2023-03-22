@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: #fff;
+    color: #000;
+    
 }
 .banner img{
     height: 200px;
@@ -20,8 +21,14 @@
     justify-content: center;
     height: 60px;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
     text-decoration: none;
-    background-color: #0061FF;
+    background-color: #291EDC;
+    color: #fff;
    
+}
+
+main img{
+    height: 200px;
+    width: 200px;
 }
