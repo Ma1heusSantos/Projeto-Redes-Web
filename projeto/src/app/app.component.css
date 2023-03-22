@@ -6,13 +6,25 @@
     color: #000;
     
 }
+.banner{
+    position:relative;
+}
+.title-banner{
+    position: absolute;
+    color:#fff;
+    font-size: 48px;
+    left: 430px;
+    top: 60px;
+}
 .banner img{
     height: 200px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:top;
+    background-position:bottom;
     object-fit: cover;
+    position: absolute;
+    margin-bottom: 200px;
     
 }
 .opc-menu{
@@ -23,12 +35,7 @@
     list-style: none;
     gap: 30px;
     text-decoration: none;
-    background-color: #291EDC;
+    background-color: #00B9D7;
     color: #fff;
    
-}
-
-main img{
-    height: 200px;
-    width: 200px;
 }
