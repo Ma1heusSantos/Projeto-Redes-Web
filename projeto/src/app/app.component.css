@@ -5,6 +5,10 @@
     font-family: sans-serif;
     color: #000;
     
+    
+}
+body{
+    background-color: #ccc;
 }
 .banner{
     position:relative;
@@ -24,7 +28,7 @@
     background-position:bottom;
     object-fit: cover;
     position: absolute;
-    margin-bottom: 200px;
+    
     
 }
 .opc-menu{
@@ -38,4 +42,39 @@
     background-color: #00B9D7;
     color: #fff;
    
+}
+#icon{
+    height:25px;
+    width:25px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "main aside";
+    gap: 15px;
+}
+main{
+    grid-area:main;
+    margin-top: 225px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: #fff; 
+    border-radius: 25px;
+    padding: 30px;
+    
+}
+aside{
+    margin-top:225px;
+    grid-area:aside;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 30px;
+}
+.card-aside{
+    margin-top:225px;
+    
 }
