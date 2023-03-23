@@ -8,7 +8,7 @@
     
 }
 body{
-    background-color: #ccc;
+    background-color: #E6F4F1;
 }
 .banner{
     position:relative;
@@ -50,7 +50,9 @@ body{
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "main aside";
+    grid-template-areas: "main aside"
+                         "footer footer"
+                         "footer footer";
     gap: 15px;
 }
 main{
@@ -62,7 +64,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 800px;
-    background-color: #fff; 
+    background-color: #E7FDFF; 
     border-radius: 25px;
     padding: 30px;
     
@@ -70,11 +72,15 @@ main{
 aside{
     margin-top:225px;
     grid-area:aside;
-    background-color: #fff;
+    background-color: #E7FDFF;
     border-radius: 25px;
     padding: 30px;
 }
 .card-aside{
     margin-top:225px;
     
+}
+footer{
+    grid-area: footer;
+    background-color: #E7FDFF;
 }
