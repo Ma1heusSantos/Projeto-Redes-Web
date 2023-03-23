@@ -84,10 +84,7 @@ aside{
     border-radius: 25px;
     padding: 30px;
 }
-.card-aside{
-    margin-top:225px;
-    
-}
+
 footer{
     grid-area: footer;
     background-color: var(--corConteudo);
