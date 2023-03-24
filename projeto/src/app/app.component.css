@@ -1,5 +1,5 @@
 :root{
-    --black: black;
+    --preto: black;
     --corConteudo :#E7FDFF;
     --corBody: #E6F4F1;
     --corNav: #00B9D7;
@@ -10,12 +10,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: var(--black);
+    color: var(--preto);
     
     
 }
 body{
-    background-color: var(--corBody);
+    background-color: var(--branco);
 }
 .banner{
     position:relative;
@@ -59,33 +59,37 @@ body{
     gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "main aside"
-                         "footer footer"
                          "footer footer";
     
 }
 main{
     grid-area:main;
     margin-top: 225px;
-    margin-left: 200px;
+    margin-left: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 800px;
-    background-color: var(--corConteudo); 
+    /* background-color: var(--corConteudo);  */
     border-radius: 25px;
     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     
 }
 aside{
     margin-top:225px;
+    margin-right: 600px;
     grid-area:aside;
-    background-color: var(--corConteudo);
+    background-color: var(--branco);
     border-radius: 25px;
     padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 footer{
     grid-area: footer;
-    background-color: var(--corConteudo);
+    background-color: var(--branco);
+    height: 200px;
+    width: 100vw;
 }
