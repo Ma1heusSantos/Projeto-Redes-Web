@@ -88,6 +88,7 @@ aside{
 }
 
 footer{
+    margin-top:20px;
     grid-area: footer;
     background-color: var(--branco);
     height: 200px;
