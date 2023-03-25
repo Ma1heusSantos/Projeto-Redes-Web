@@ -15,14 +15,14 @@
     
 }
 body{
-    background-color: var(--branco);
+    background-color: #fff;
 }
 .banner{
     position:relative;
 }
 .title-banner{
     position: absolute;
-    color:var(--branco);
+    color:#fff;
     font-size: 48px;
     left: 430px;
     top: 60px;
@@ -46,7 +46,7 @@ body{
     list-style: none;
     gap: 30px;
     text-decoration: none;
-    background-color: var(--corNav);
+    background-color:#00B9D7;
     color: #fff;
    
 }
