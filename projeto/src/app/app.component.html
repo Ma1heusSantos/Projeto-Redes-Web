@@ -1,1 +1,33 @@
-<app-conceitos></app-conceitos>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./app.component.css">
+  <title>Redes Gerenciadas por Software</title>
+</head>
+<body>
+
+  <nav class="nav-menu">
+      <ul class="opc-menu">
+          <li> <a class="opc-menu" routerLink="conceitos">Conceito</a></li>
+          <li> <a class="opc-menu" routerLink="aplicacao">Aplicação</a></li>
+          <li> <a class="opc-menu" routerLink="funcionamento">Funcionamento</a></li>
+          <li> <a class="opc-menu" routerLink="exemplos">Exemplos</a></li>
+          <li> <img id="icon" src="C:\Users\Atom\Documents\GitHub\Projeto-Redes-Web\projeto\src\app\lupa.png" alt="lupa"></li>
+      </ul>
+  </nav>
+  
+  <div class="banner">
+      <img src="https://imgs.search.brave.com/8fvwcHyh5eIX3SmmNmNqNgEKjmraKNW6MBlCx-3mRPU/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaWRnZXNnLm5l/dC9pbWFnZXMvYXJ0/aWNsZS8yMDE3LzA5/L25ldHdvcmtpbmct/MTAwNzM1MDU5LWxh/cmdlLmpwZw" alt="Imagem de Redes">
+      <label class = 'title-banner'>Redes Definidas por Software</label>
+  </div> 
+  <a routerLink = "conceitos"> <button></button></a>
+ <router-outlet></router-outlet>
+    
+ <footer>
+      <p></p>
+    </footer>
+</body>
+</html>
